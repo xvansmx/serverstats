@@ -1,0 +1,15 @@
+{
+    "name": "xvansmx/serverstats",
+    "description": "This returns the server information, memory stats, all procceses and hard drive capacity..",
+    "keywords": ["server info", "memory", "procces"],
+    "license": "MIT",
+    "type": "project",
+	"require": {
+        "php": ">=5.5.9"
+	},
+    "autoload": {
+        "psr-4": {
+            "ServerStats\\": "src/"
+        }
+    }
+}
